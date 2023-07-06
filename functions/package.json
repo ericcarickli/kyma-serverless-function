@@ -1,0 +1,11 @@
+{
+  "name": "sap-serverless",
+  "version": "1.0.0",
+  "description": "Serverless application on SAP BTP, Kyma Runtime  ",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ericca Rickli (ericca.rickli@gmail.com)",
+  "license": "ISC"
+}
