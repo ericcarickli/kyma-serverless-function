@@ -5,6 +5,7 @@ One will be for public repositories and the another will be for private reposito
 
 ## Deploy a public repository without authentication:
 
+```jsx
 apiVersion: serverless.kyma-project.io/v1alpha2
 kind: Function
 metadata:
@@ -17,6 +18,7 @@ spec:
       baseDir: /functions
       reference: master
       url: https://github.com/ericcarickli/kyma-serverless-function.git
+```
 
 ## Deploy private repositories using SSH Key authentication:
 
